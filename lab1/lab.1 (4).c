@@ -1,38 +1,36 @@
 #include<stdio.h>
-#include<locale.h>
 
 int main() {
-	setlocale(LC_ALL,"rus");
 	int n;
-	printf("¬ведите номер мес€ца:");
+	printf("Enter the month number:");
 	scanf_s("%d", &n);
 	switch (n) {
 	case 1:
-		printf("€нварь");
+		printf("January");
 		break;
-	case 2: printf("февраль");
+	case 2: printf("February");
 		break;
-	case 3: printf("март");
+	case 3: printf("March");
 		break;
-	case 4: printf("апрель");
+	case 4: printf("April");
 		break;
-	case 5: printf("май");
+	case 5: printf("May");
 		break;
-	case 6: printf("июнь");
+	case 6: printf("June");
 		break;
-	case 7: printf("июль");
+	case 7: printf("July");
 		break;
-	case 8: printf("август");
+	case 8: printf("August");
 		break;
-	case 9: printf("сент€брь");
+	case 9: printf("Septrmber");
 		break;
-	case 10: printf("окт€брь");
+	case 10: printf("October");
 		break;
-	case 11: printf("но€брь");
+	case 11: printf("November");
 		break;
-	case 12: printf("декабрь");
+	case 12: printf("December");
 		break;
-	default: printf("ќшибка ввода.ѕопоробуйте снова.");
+	default: printf("Input error.");
 		break;
 	}
 	return 0;

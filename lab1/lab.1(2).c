@@ -1,15 +1,13 @@
 #include<stdio.h>
-#include<locale.h>
 
 int main() {
-	setlocale(LC_ALL, "rus");
 	float a, b;
-	printf("¬ведите a:");
+	printf("Enter a:");
 	scanf_s("%f", &a);
-	printf("¬ведите b:");
+	printf("Enter b:");
 	scanf_s("%f", &b);
-	if (a == b) printf("a и b равны\n");
-	else printf("a не равно b\n");
+	if (a == b) printf("a and b are equal\n");
+	else printf("a is not equal to b\n");
 
 	return 0;
 }
